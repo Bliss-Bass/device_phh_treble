@@ -35,5 +35,10 @@ if [ -n "$img" -a ! -f /system/rewrite-spl-done ];then
 		reboot
 	fi
 fi
+
 mount -o remount,ro /system
 mount -o remount,ro /
+
+if grep vendor.huawei.hardware.biometrics.fingerprint /vendor/manifest.xml;then
+    mount -o bind system/phh/huawei/fingerprint.kl /vendor/usr/keylayout/fingerprint.kl
+fi
