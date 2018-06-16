@@ -20,8 +20,27 @@ add_lunch_combo bliss_arm64_a-userdebug
 add_lunch_combo bliss_arm64_a-userdebug
 add_lunch_combo bliss_arm64_ab-userdebug
 add_lunch_combo bliss_arm64_ab-userdebug
-add_lunch_combo treble_arm64_avN-userdebug arm64-aonly-vanilla-nosu
-add_lunch_combo treble_arm64_agS-userdebug arm64-aonly-gapps-su
-add_lunch_combo treble_arm64_bvN-userdebug arm64-ab-vanilla-nosu
-add_lunch_combo treble_arm64_bgS-userdebug arm64-ab-gapps-su
-add_lunch_combo treble_arm_avN-userdebug arm-aonly-vanilla-nosu
+add_lunch_combo treble_arm64_afN-userdebug
+add_lunch_combo treble_arm64_afS-userdebug
+add_lunch_combo treble_arm64_agN-userdebug
+add_lunch_combo treble_arm64_agS-userdebug
+add_lunch_combo treble_arm64_avN-userdebug
+add_lunch_combo treble_arm64_avS-userdebug
+add_lunch_combo treble_arm64_bfN-userdebug
+add_lunch_combo treble_arm64_bfS-userdebug
+add_lunch_combo treble_arm64_bgN-userdebug
+add_lunch_combo treble_arm64_bgS-userdebug
+add_lunch_combo treble_arm64_bvN-userdebug
+add_lunch_combo treble_arm64_bvS-userdebug
+add_lunch_combo treble_arm_afN-userdebug
+add_lunch_combo treble_arm_afS-userdebug
+add_lunch_combo treble_arm_agN-userdebug
+add_lunch_combo treble_arm_agS-userdebug
+add_lunch_combo treble_arm_avN-userdebug
+add_lunch_combo treble_arm_avS-userdebug
+add_lunch_combo treble_arm_bfN-userdebug
+add_lunch_combo treble_arm_bfS-userdebug
+add_lunch_combo treble_arm_bgN-userdebug
+add_lunch_combo treble_arm_bgS-userdebug
+add_lunch_combo treble_arm_bvN-userdebug
+add_lunch_combo treble_arm_bvS-userdebug
