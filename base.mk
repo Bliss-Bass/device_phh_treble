@@ -15,7 +15,6 @@ $(call inherit-product, vendor/vndk/vndk.mk)
 $(call inherit-product, vendor/hardware_overlay/overlay.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-$(call inherit-product, vendor/bliss/config/common.mk)
 
 #Those overrides are here because Huawei's init read properties
 #from /system/etc/prop.default, then /vendor/build.prop, then /system/build.prop
@@ -50,3 +49,15 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 	treble-environ-rc
+
+# Bliss additions
+$(call inherit-product, vendor/bliss/config/common.mk)
+
+# Bliss Versioning System
+-include vendor/bliss/config/versions.mk
+
+# Bliss Packages
+-include vendor/bliss/config/bliss_packages.mk
+
+PRODUCT_COPY_FILES += \
+	vendor/bliss/prebuilt/common/etc/init.bliss.rc:system/etc/init/init.bliss.rc
