@@ -67,3 +67,4 @@ PRODUCT_COPY_FILES += \
 	vendor/bliss/prebuilt/common/etc/init.bliss.rc:system/etc/init/init.bliss.rc
 
 BLISS_BUILDTYPE := OFFICIAL
+WITH_BLISS_CHARGER := false
